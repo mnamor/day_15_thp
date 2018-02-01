@@ -1,24 +1,31 @@
-# README
+# M00-K_D-mY
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## créé un cours
+  cour2 = Cour.new(title:"test n2",description:"c le premier des deuxieme!?!")
 
-Things you may want to cover:
+## créé une leson
+  2.3.4 :022 > a = Lisent.new
+  => #<Lisent id: nil, title: nil, body: nil, cour_id: nil, created_at: nil, updated_at: nil> 
 
-* Ruby version
+### créé un tritre de leson
+  2.3.4 :023 > a.title = "teste"
+  => "teste" 
 
-* System dependencies
+### créé un teste de leson
+  2.3.4 :024 > a.body = "teste2121"
+  => "teste2121" 
 
-* Configuration
+### asigné a un cours la leson
+  2.3.4 :025 > a.cour_id = 1
+  => 1 
+ 
+## sauvgarder une leson ou un cours
+  2.3.4 :026 > a.save
 
-* Database creation
+## voir la liste des cours
+  2.3.4 :007 > Cour.all
 
-* Database initialization
+## voir la liste des leson
+  2.3.4 :007 > Lisent.all
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
